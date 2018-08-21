@@ -648,9 +648,27 @@
 
 body {
     background-color: #121212;
+    color: #FFF45C;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #00FF99;
+    text-align: center;
+ 	}
+ 	
+h3 {
+	color: #9933FF;
+	}
+
+h4{
+	color: #FFF45C;
+}
+
+p {
+	color: #FFF45C;
 }
 
 ul, li {
@@ -675,7 +693,6 @@ ul, li {
     text-align: center;
     font-size: 10em;
     font-weight: 700;
-    color: white;
     transform: translate(-80%, -80%);
 	transform: rotate(-15deg);
 	-ms-transform: rotate(-15deg);
@@ -686,9 +703,7 @@ ul, li {
 
 @media screen and (max-width: 700px) {
     .title {
-	width: 80%;
     max-width: 400px;
-    margin: 0 auto;
     font-size: 5em;
     }
 }
@@ -744,11 +759,14 @@ ul.landing a img {
     text-align: center;
 }
 
+
+
 @media screen and (max-width: 700px) {
     .countdown {
         font-size: 1.5em;
     }
 }
+
 
 .video {
  width: 100%;
@@ -765,6 +783,13 @@ ul.landing a img {
     text-align: center;
 }
 
+.copyright a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #156eec;
+}
+
 @media screen and (max-width: 700px) {
     .copyright {
         font-size: 3vw;
@@ -775,4 +800,15 @@ ul.landing a img {
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+
+.legal {
+	width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+    font-size: 1em;
+    font-weight: 400;
+
 }
