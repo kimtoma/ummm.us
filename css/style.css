@@ -744,6 +744,7 @@ ul.landing a {
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
+    margin: 40px 0 40px 0;
 }
 
 ul.landing a img {
@@ -774,6 +775,7 @@ ul.landing a img {
  display: flex;
  justify-content: center;
  align-items: center;
+ margin: 35px 0 25px 0;
 }
 
 .copyright {
@@ -794,7 +796,18 @@ ul.landing a img {
     .copyright {
         font-size: 3vw;
     }
+    .download {
+        font-size: 3vw;
+                width: 45%;
+    }    
 }
+
+.download {
+    margin: 35px 0 25px 0;
+    padding: 0;
+    text-align: center;
+}
+
 
 .giphy {
     margin: 0;
