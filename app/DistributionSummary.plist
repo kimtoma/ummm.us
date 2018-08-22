@@ -23,10 +23,8 @@
 			<dict>
 				<key>application-identifier</key>
 				<string>29GKW9FL72.com.hnine.ummm</string>
-				<key>com.apple.developer.associated-domains</key>
-				<array>
-					<string>applinks:ummm.page.link</string>
-				</array>
+				<key>aps-environment</key>
+				<string>production</string>
 				<key>com.apple.developer.team-identifier</key>
 				<string>U32Q9DB8SF</string>
 				<key>get-task-allow</key>
